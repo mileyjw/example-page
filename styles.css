@@ -1,0 +1,75 @@
+
+body {
+    background-color: blueviolet;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+}
+
+.navbar img {
+    width: 30px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.btn {
+    background: var(--text-color);
+    border: none;
+    color: var(--green-highlight);
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 112px;
+}
+div.card {
+    border: none;
+    background-color: transparent;
+}
+
+div.card-body, .card-title, .card-text {
+    color: var(--text-color);
+}
+
+/* Hero Section */
+.hero-section {
+    background: url(../images/orangecat.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+
+
+.hero-section h1 {
+    font-weight: 100;
+}
+
+.hero-section .lead {
+    font-size: 1.5rem;
+}
+
+.work-card img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.modal-body img {
+    width: 100%;
+}
